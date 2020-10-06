@@ -8,7 +8,7 @@ public class SumOfFraction {
 		int n=sc.nextInt();
 		double sum=1.0000;
 		
-		for(int i=2;i<=n;i++) {
+		for(double i=2d;i<=n;i++) {
 			sum+=(1/i);
 		}
 		System.out.println(sum);
